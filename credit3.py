@@ -5,8 +5,8 @@ Created on Sun Sep  9 18:50:45 2018
 
 @author: raunak
 """
-init_balance = 172718
-monthlyInterestRate = 0.22/12
+init_balance = 320000
+monthlyInterestRate = 0.2/12
 lower = init_balance/12
 upper = (init_balance * (1 + monthlyInterestRate)**12)/12.0
 epsilon = 0.03
